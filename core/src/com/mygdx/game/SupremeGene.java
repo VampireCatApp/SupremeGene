@@ -16,7 +16,7 @@ public class SupremeGene extends Game {
 	}
 
 	private void init() {
-		//TODO servers initiation
+		//TODO services initiation
 	}
 
 	public boolean isPaused() {
