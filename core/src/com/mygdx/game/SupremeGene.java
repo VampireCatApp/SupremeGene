@@ -2,6 +2,7 @@ package com.mygdx.game;
 
 
 import com.badlogic.gdx.Game;
+import com.mygdx.game.screens.SplashScreen;
 
 public class SupremeGene extends Game {
 	private boolean paused;
@@ -12,7 +13,7 @@ public class SupremeGene extends Game {
 	@Override
 	public void create () {
 		init();
-		//this.setScreen(new SplashScreen(this));
+		this.setScreen(new SplashScreen(this));
 	}
 
 	private void init() {
